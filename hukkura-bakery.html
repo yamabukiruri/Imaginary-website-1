@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="description" contemt="○○町のパン屋、ふっくらベーカリーのホームページです。">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>ふっくらベーカリー｜××区○○町のパン屋</title>
+
+       <meta name="robots" content="noindex">
+
+       <!--CSS-->
+       <link rel="stylesheet" href="style.css">
+
+       <!--font-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header id="header" class="font">
+            <p>ふっくらベーカリー</p>
+            <nav id="nav">
+                <ul>
+                    <li onclick="location.href='#about'">当店のパンについて</li>
+                    <li onclick="location.href='#recommend'">おすすめ商品</li>
+                    <li onclick="location.href='#access'">アクセス</li>
+                    <li onclick="location.href='#news'">お知らせ</li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="hamburger">
+            <div id="toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="mask"></div>
+        </div>
+
+        <div id="intro">
+            <h1 class="font fadeInActive">ふっくらベーカリー</h1>
+            <div id="intro-contents">
+                <div id="intro-img">
+                    <img src="images/bakery.jpg" alt="店の内装">
+                </div>
+                <p class="font fadeInActive">おかげさまで創業30年。<br>
+                    町の皆様に愛されるパン屋です。<br>
+                    地元の食材をたっぷりと使ったパンで、<br>
+                    この町の味を感じてみませんか。
+                </p>
+            </div>
+        </div>
+
+        <div id="container">
+            <div id="main" class="area">
+                <div id="about">
+                    <h2 class="font fadeIn">ふっくらベーカリーのパン</h2>
+                    <div id="about-contents">
+                        <div id="about-img">
+                            <img src="images/shokupan.jpg" alt="食パン" class="fadeIn">
+                        </div>
+                        <div id="about-text">
+                            <h3 class="font fadeIn">こだわりのポイント</h3>
+                            <p class="fadeIn">テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキストテキストテキスト
+                                テキストテキストテキストテキスト
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div id="recommend">
+                    <h2 class="font fadeIn">おすすめ商品</h2>
+                    <div id="recommend-contents" class="fadeIn">
+                        <div class="menu">
+                            <img src="images/roll.jpg" alt="ツイストロールパン" class="recommend-img">
+                            <p class="name">ツイストロールパン</p>
+                            <p class="explanation">テキストテキストテキストテキスト
+                                テキストテキストテキストテキスト
+                                テキストテキストテキストテキスト
+                            </p>
+                        </div>
+                        <div class="menu">
+                            <img src="images/croissant.jpg" alt="クロワッサン" class="recommend-img">
+                            <p class="name">クロワッサン</p>
+                            <p class="explanation">テキストテキストテキストテキスト
+                                テキストテキストテキストテキスト
+                                テキストテキストテキストテキスト
+                            </p>
+                        </div>
+                        <div class="menu">
+                            <img src="images/milk.jpg" alt="ミルクメロンパン" class="recommend-img">
+                            <p class="name">ミルクメロンパン</p>
+                            <p class="explanation">テキストテキストテキストテキスト
+                                テキストテキストテキストテキスト
+                                テキストテキストテキストテキスト
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="access" class="area">
+                <h2 class="font fadeIn">アクセス</h2>
+                <div id="access-contents">
+                    <div id="access-text">
+                        <p class="fadeIn">住所：××区○○町△-△-△<br>
+                            電話番号：○○○○○○○○<br>
+                            定休日：水・日<br>
+                            営業時間：8:00~21:00<br>
+                            交通アクセス：□□線○○駅より徒歩3分
+                        </p>
+                        <div id="access-img">
+                            <img src="images/shop.png">
+                        </div>
+                    </div>
+                    <div id="map" class="fadeIn">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51862.54614197999!2d139.65759637973127!3d35.66692666238768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cb2eb3108d1%3A0xf11cd9b2395b6677!2z5p2x5Lqs6YO95riL6LC35Yy6!5e0!3m2!1sja!2sjp!4v1663905987593!5m2!1sja!2sjp" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div id="news" class="area">
+                <h2 class="font fadeIn">お知らせ</h2>
+                <table id="news-contents">
+                    <tr class="fadeIn">
+                        <td>2022.09.01</td>
+                        <td>秋の期間限定商品「スイートポテトブレッド」「かぼちゃパン」発売開始！</td>
+                    </tr>
+                    <tr class="fadeIn">
+                        <td>2022.08.22</td>
+                        <td>テキストテキストテキストテキストテキストテキスト</td>
+                    </tr>
+                    <tr class="fadeIn">
+                        <td>2022.08.02</td>
+                        <td>テキストテキストテキストテキストテキストテキスト</td>
+                    </tr>
+                    <tr class="fadeIn">
+                        <td>2022.07.18</td>
+                        <td>テキストテキストテキストテキストテキストテキスト</td>
+                    </tr>
+                    <tr class="fadeIn">
+                        <td>2022.07.05</td>
+                        <td>テキストテキストテキストテキストテキストテキスト</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <footer class="font">
+            <ul>
+                <li><a href="https://twitter.com/">Twitter</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+            </ul>
+            <p>&copy; ふっくらベーカリー</p>
+        </footer>
+
+        <!--Javascript-->
+        <script src="script.js"></script>
+
+    </body>
+</html>
